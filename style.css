@@ -1,0 +1,83 @@
+/**
+ * Unit 16 HW- HTML Profile
+ **/
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  body {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    padding: 5% 10% 5%;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Add styling to recreate the layout on the screen */
+  
+  section::after {
+    content:"";   
+    display:block;
+    clear: both;
+  
+  }
+  
+  #sidebar {
+      float: left;
+      padding: 20px;
+      width: 20%;
+      height: 300px;
+  }
+  
+  #largeContent {
+      float: left;
+      background-color: blue;
+      color: white;
+      padding: 20px;
+      width: 80%;
+      height: 300px;
+     
+      
+  }
+  
+  .about-me {
+    float:left;
+    background-color:#888;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    height: 30%;
+  }
+  
+  #middle {
+    float:left;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    height: 400px;
+    
+  }
+  
+  #right {
+    float:left;
+    background-color:#888;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+  }
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    background: #ccc;
+  }
